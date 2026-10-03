@@ -9,7 +9,7 @@ namespace Tyuiu.VazhnikLN.Sprint4.Task1.V28.Lib
             int s = 1;
             for (int i = 0;  i < array.Length; i++)
             {
-                if (i % 2 != 0) s = s * array[i];
+                if (array[i] % 2 != 0) s = s * array[i];
             }
             return s;
         }
